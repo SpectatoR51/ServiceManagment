@@ -1,0 +1,38 @@
+{
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "./dist/js/bootstrap.min.js",
+        "./dist/css/bootstrap.min.css",
+        "./dist/css/bootstrap-theme.min.css"
+      ]
+    },
+    "jquery": {
+      "main": [
+        "./dist/jquery.min.js"
+      ]
+    }
+  },
+
+  "name": "sm",
+  "description": "Service Managment",
+  "main": "",
+  "authors": [
+    "Erkoev Dmitry <erkoev.dmitry@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://it-lab.pro",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "datatables": "^1.10.15",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Service Managment</title>
+    <!-- build:css css/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower/datatables/media/css/jquery.dataTables.css" />
+    <link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="bower/normalize-css/normalize.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="bundle.min.css">
+    <!-- endbuild -->
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">MATRIX CRM</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">РЕМОНТЫ</a></li>
+                <li><a href="#">ОТЧЕТЫ</a></li>
+                <li><a href="#">ГРАФИКИ</a></li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<table class="dataTable table table-striped table-bordered" cellspacing="0" width="100%">
+    <thead>
+    <tr>
+        <td></td>
+        <td style="width: 70px">№</td>
+        <td>Дата приемки</td>
+        <td style="width: 100px">Тип</td>
+        <td style="width: 100px">Модель</td>
+        <td style="width: 250px">ФИО</td>
+        <td style="width: 100px">Статус</td>
+
+    </tr>
+    </thead>
+    <tbody>
+
+
+
+    <tr style="">
+        <td>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Dropdown
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div>
+        </td>
+        <td style="width: 70px">№1680</td>
+        <td>2017-06-16 14:15:00</td>
+        <td style="width: 100px">Ноутбук</td>
+        <td style="width: 100px">HP 15-ac040ur</td>
+        <td style="width: 250px">Шовин Максим Эдуардович</td>
+        <td style="width: 100px">В обработке</td>
+    </tr>
+
+
+
+    </tbody>
+</table>
+
+<!-- build:js js/vendor.js -->
+<!-- bower:js -->
+<script src="bower/jquery/dist/jquery.min.js"></script>
+<script src="bower/datatables/media/js/jquery.dataTables.js"></script>
+<script src="bower/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+<!-- build:js js/main.js -->
+<script src="js/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>
